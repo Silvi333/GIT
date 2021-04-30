@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta es la página donde se pueden contactar conmigo para algun trabajo o proyecto">
+    <meta name="keywords"  content="contactame, formulario, rubros, campos, agendar, correo, dudas">
+    <title>Silvina-Contacto</title>
+     <!-- Link Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/prueba.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- boostrap formulario -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body class="contenedor">
+    <header class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="svg/logo3.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-lable="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a class="nav-link" href="sobre mi.html">Mi historia</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="proyectos.html">Mis trabajos</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="tienda.html">Shop</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+    <!-- SECCION 1 BANNER CONTACTAME -->
+
+ <section class="seccionUno" >
+
+    <article class="articuloUno">
+        <div class="ancho">
+            <h1 class="tituloUno">Hello, soy <br>Silvina Galván</h1>
+        </div>
+
+        <div>
+            <p class="parrUno">Soy Diseñadora Gráfica y me encanta <br>todo lo que tenga que ver con arte.</p>
+        </div>
+
+        <div class="boton">
+            <a class="botonUno" href="#">Contáctame</a>
+        </div>
+    </article>
+        <div>
+            <img class="imaUno" src="imagenes/imp.png">
+        </div>
+
+
+</section>
+
+    <!-- SECCION 2 FORMULARIO -->
+
+<section class="formulario"> 
+
+    <div class="formulario__contenedor">
+    
+       
+
+        <div class="formulario__preguntas">
+
+            <div class="formulario__preguntas__contenedor">
+
+                <div class="formulario__preguntas__titulo">
+                    <h2>Contáctame</h2>
+                </div>
+
+                <form action="" ></form>
+                   
+                    <div class="form-group col-md-11">
+                        <label class="label__titulos" for="nombre">Nombres y apellidos</label>
+                        <input class="form-control form-control-lg" type="text" name="nombre" id="" placeholder="Escribe tu nombre">
+                    </div>
+                    
+                    <div class="form-group col-md-11">
+                        <label class="label__titulos" for="email">Correo electrónico</label>
+                        <input class="form-control form-control-lg" type="email" name="mail" id="email" placeholder="hola@ejemplo.com">
+                    </div>
+                    
+                    <div class="form-group col-md-11">
+                        <label class="label__titulos" for="phone">Celular</label><br>
+                        <input class="form-control form-control-lg" type="tel" name="phone" id="phone" placeholder="Escribe tu celular">
+                    </div>
+
+
+                    <div class="form-group col-md-11">
+                        <label class="label__titulos" for="comentario">Añade un comentario</label>
+                        <textarea class="form-control" name="comentario" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+
+                    <div class="form-group col-md-11">
+                        <button type="button" class="btn btn-primary btn-lg">Enviar datos</button>
+                        <button type="button" class="btn btn-outline-primary btn-lg">Limpiar todo</button>
+                        
+                    </div>
+
+                
+                </form>
+            </div>
+        </div>
+
+        <div class="formulario__imagen">
+
+            <img class="imgCard" src="imagenes/ilustracionFormulario.png">
+
+        </div>
+
+    </div>
+</section>
+   
+
+    </main>
+
+     <!-- SECCIÓN FOOTER -->
+     <footer class="footerHome">
+        <p class="texto">© 2021 Silvina G. Todos los Derechos Reservados</p>
+        <div>
+            <img class="imagen" src="imagenes/Instagram.svg">
+            <img class="imagen" src="imagenes/Twitter.svg">
+            <img class="imagen" src="imagenes/Linkedin.svg">
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
