@@ -1325,12 +1325,10 @@ header {
 
 .contenedor .seccionUnoBanner .imaDosTienda {
   width: 239px;
-  height: 305px;
   margin-bottom: 25px; }
 
 .contenedor .seccionUnoBanner .imaUnoTienda {
-  width: 339px;
-  height: 339px; }
+  width: 339px; }
 
 .contenedor .seccionUnoBanner .imagenPrin {
   margin-right: 60px;
