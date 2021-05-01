@@ -744,12 +744,12 @@ header {
 .contenedor .seccionUnoBanner .imaUnoTienda {
   margin: 0px 90px 0 0;
   width: 239px;
-  height: 235px; }
+  }
 
 .contenedor .seccionUnoBanner .imaDosTienda {
   margin: 0px 60px 0 90px;
   width: 239px;
-  height: 235px; }
+  }
 
 .contenedor .seccionUnoBanner .tituloUnoTienda .descuento {
   color: #00ABE8; }
