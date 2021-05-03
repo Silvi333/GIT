@@ -742,13 +742,13 @@ header {
   font-weight: 400; }
 
 .contenedor .seccionUnoBanner .imaUnoTienda {
-  margin: 0px 90px 0 0;
+  margin: 0px 90px 20px 0;
   width: 239px;
   }
 
 .contenedor .seccionUnoBanner .imaDosTienda {
   margin: 0px 60px 0 90px;
-  width: 239px;
+  width: 310px;
   }
 
 .contenedor .seccionUnoBanner .tituloUnoTienda .descuento {
